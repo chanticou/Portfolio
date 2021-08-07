@@ -1,0 +1,148 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Vesper Libre', serif;
+
+}
+
+/*Variables colores*/
+:root {
+    --yellow: #f4b41a;
+    --blue: #143d59;
+}
+
+
+
+
+main {
+    width: 100%;
+    height: 90%;
+
+}
+
+
+
+
+li {
+    list-style: none;
+    text-decoration: none;
+    font-size: 2vmax;
+    color: var(--blue);
+
+}
+
+li:hover {
+    color: var(--yellow);
+    cursor: pointer;
+}
+
+nav {
+    display: flex;
+    text-align: center;
+
+
+}
+
+ul {
+    display: flex;
+    justify-content: space-between;
+    width: 1300px;
+
+}
+
+
+/*nombre y presentacion*/
+/*Me voy a presentar*/
+.landing-content {
+
+    padding: 10px;
+}
+
+
+
+.content-presentacion {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    width: 100%;
+    box-sizing: content-box;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.content-presentacion .imagen{
+    width: 200px;
+    height: 200px;
+    border-radius: 100px;
+
+}
+
+
+
+.hola {
+    color: var(--yellow);
+    font-size: 4vmax;
+
+}
+
+.presentacion .nombre {
+    font-size: 7vmax;
+    margin-bottom: 20px;
+    color: var(--blue);
+    overflow: hidden;
+}
+
+.presentacion .developer {
+    color: var(--yellow);
+    font-size: 2.5vmax;
+    margin: auto;
+}
+
+/*Trabajos*/
+
+.container-trabajos{
+    background-color: var(--yellow);
+    color:var(--blue);
+    width:100%;
+    border-radius: 5px;
+}
+
+.container-trabajos h2{
+    text-align: center;
+    margin-top:20px;
+}
+
+.trabajos{
+    display:flex;
+    justify-content:space-around;
+    align-items: center;
+    margin: auto;
+    margin-top: 80px;
+    flex-wrap: wrap;
+    
+}
+
+.trabajo{
+    background-color: var(--blue);
+    padding:20px;
+    border-radius: 10px;
+    box-shadow: 2px 4px 4px rgb(0 , 0 , 0 ,.5);
+    margin-bottom:20px;
+    
+}
+
+.trabajos .trabajos-img{
+    width:200px;
+    height:200px;
+    object-fit: contain;
+}
+
+
+.trabajos-img:hover{
+    width: 220px;
+    height: 220px;
+    transition: 0.5s ease all;
+    cursor:pointer
+}
