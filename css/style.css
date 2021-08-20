@@ -109,6 +109,7 @@ ul {
     color:var(--blue);
     width:100%;
     border-radius: 5px;
+
 }
 
 .container-trabajos h2{
@@ -123,7 +124,6 @@ ul {
     margin: auto;
     margin-top: 80px;
     flex-wrap: wrap;
-    
 }
 
 .trabajo{
@@ -134,18 +134,21 @@ ul {
     margin-bottom:20px;
     opacity: 0;
     transition:2s ease all;
+
 }
 
-.trabajos .trabajos-img{
+
+.trabajos-img{
     width:200px;
     height:200px;
     object-fit: contain;
+
 }
 
 
 .trabajos-img:hover{
     width: 220px;
     height: 220px;
-    transition: 0.5s ease all;
-    cursor:pointer
+    transition: 1s ease all;
+    cursor:pointer;
 }
