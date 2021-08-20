@@ -12,7 +12,9 @@
     --blue: #143d59;
 }
 
-
+.imagen{
+    object-fit: cover;
+}
 
 
 main {
